@@ -15,6 +15,7 @@ int val(char c){
     if(c=='C')return 100;
     if(c=='D')return 500;
     if(c=='M')return 1000;
+    else return -1;
     
 }
 class Solution {
